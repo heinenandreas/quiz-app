@@ -3,8 +3,8 @@ export default {
 };
 
 export const Default = () => /*html*/ `
-  <article class="header-layout">
-
+  <header class="header-layout">
+    <p>Test<p>
   
-  </article>
+  </header>
   `;
