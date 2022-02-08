@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+.card-head {
+  box-sizing: content-box;
+  height: 45px;
+  background-color: #679bcb;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+
+.question-headline {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  border: 5px solid #133c55;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.question-text {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.button-show-answer {
+  background-color: #679bcb;
+  display: inline-block;
+}
+
+.show-answer {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin: 1rem;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 1em;
+  background-color: lightgrey;
+  height: 50px;
+  width: auto;
+  padding: 10px;
+}
+
+.cat-active {
+  height: 30px;
+  background-color: #679bcb;
+  border: 3px solid #133c55;
+  border-radius: 5px;
+}
+.cat-inactive {
+  height: 30px;
+  background-color: white;
+  border: 3px solid #133c55;
+  border-radius: 5px;
+}
+
+.cat-name {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  margin: 0;
+}
