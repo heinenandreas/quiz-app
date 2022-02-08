@@ -27,7 +27,24 @@
   overflow: hidden;
 }
 
+.card-layout-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  border: 5px solid #133c55;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .question-text {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.answer-text {
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
