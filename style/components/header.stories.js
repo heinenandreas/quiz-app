@@ -4,7 +4,7 @@ export default {
 
 export const Default = () => /*html*/ `
   <header class="header-layout">
-    <p>Test<p>
+    <h1 class="header-headline">Test</h1>
   
   </header>
   `;

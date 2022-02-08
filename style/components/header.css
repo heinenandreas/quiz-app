@@ -1,3 +1,11 @@
 .header-layout {
-  background-color: blue;
+  background-color: #63c787;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-headline {
+  margin: 0;
 }

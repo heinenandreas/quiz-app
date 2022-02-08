@@ -1,0 +1,15 @@
+.footer-layout {
+  background-color: #63c787;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation-link {
+  /* a? */
+}
