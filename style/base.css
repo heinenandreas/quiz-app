@@ -1,1 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+.body-style {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  margin: 0;
+}
+
+.main-content {
+  display: grid;
+  justify-items: center;
+  position: relative;
+}

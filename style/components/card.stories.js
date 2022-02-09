@@ -34,3 +34,40 @@ export const Default = () => /*html*/ `
 
 </article>
 `;
+
+export const Answer = () => /*html*/ `
+  <article class="card-layout-answer">
+  
+      <div class="card-head">
+          <h1 class= "question-headline">Question:</h1>
+      </div>
+  
+      <p class="question-text">
+          Wie lang kann so eine Frage schon sein?
+      </p>
+  
+      <div class="button-show-answer">
+          <p class="show-answer">hide answer</p>
+      </div>
+
+      <p class="answer-text">
+      Testi MC test test
+        </p>
+  
+      <div class="categories">
+          <div class="cat-active">
+              <p class="cat-name">HTML</p>    
+          </div>
+          <div class="cat-inactive">
+              <p class="cat-name">CSS</p> 
+          </div>
+          <div class="cat-inactive">
+              <p class="cat-name">Flexbox</p> 
+          </div>
+          <div class="cat-inactive">
+              <p class="cat-name">Grid</p> 
+          </div>
+      </div>
+  
+  </article>
+  `;

@@ -3,7 +3,8 @@
 .card-head {
   box-sizing: content-box;
   height: 45px;
-  background-color: #679bcb;
+  background-color: #63c787;
+  overflow: hidden;
   display: flex;
   align-items: center;
   padding: 0 0 0 10px;
@@ -16,15 +17,32 @@
 }
 
 .card-layout {
+  position: absolute;
+  top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 450px;
   height: 300px;
   background-color: white;
-  border: 5px solid #133c55;
+  border: 5px solid #699d9e;
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: -5px 5px 5px 0px lightgrey;
+}
+
+/* Kopieren nicht vergessen von card-layout */
+.card-layout-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  border: 5px solid #699d9e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: -5px 5px 5px 0px lightgrey;
 }
 
 .question-text {
@@ -32,9 +50,13 @@
   font-family: "Nunito", sans-serif;
 }
 
+.answer-text {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
 .button-show-answer {
-  background-color: #679bcb;
-  display: inline-block;
+  background-color: #63c787;
 }
 
 .show-answer {
@@ -48,7 +70,7 @@
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   gap: 1em;
-  background-color: lightgrey;
+  background-color: #7dc597b0;
   height: 50px;
   width: auto;
   padding: 10px;
@@ -56,14 +78,14 @@
 
 .cat-active {
   height: 30px;
-  background-color: #679bcb;
-  border: 3px solid #133c55;
+  background-color: #63c787;
+  border: 3px solid #699d9e;
   border-radius: 5px;
 }
 .cat-inactive {
   height: 30px;
   background-color: white;
-  border: 3px solid #133c55;
+  border: 3px solid #699d9e;
   border-radius: 5px;
 }
 
