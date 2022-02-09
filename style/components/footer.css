@@ -8,7 +8,21 @@
 }
 
 .navigation {
+  width: inherit;
   display: flex;
+
+  justify-content: space-evenly;
+}
+
+.navigation-ul {
+  width: inherit;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.navigation-li {
+  list-style-type: none;
 }
 .navigation-link {
   /* a? */
