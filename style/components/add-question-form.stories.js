@@ -3,16 +3,25 @@ export default {
 };
 
 export const Default = () => /*html*/ `
-<h1 id="form-heading">Fragekarte erstellen</h1>
-<p id="form-description">Füge eine neue Frage und die dazugehörige Antwort zum Fragenpool hinzu.</p>
 
-<form aria-labelledby="form-heading" aria-describedby="form-description">
-  <fieldset>
-    <legend>Neue Frage</legend>
-    <label for="neue-frage">Füge hier deine neue Frage ein:</label>
-    <textarea name="neue-frage" id="pneue-frage" placeholder="Hier kommt die neue Frage hinein" rows="10" cols="50" maxlength="100"></textarea>
-   
-    <label for="kategorie">In welche Kategorie gehört diese Frage?</label>
+
+<article class="form-layout">
+<div class="bookmark-style-active"></div> 
+    <div class="card-head">
+        <h1 class= "question-headline" id="form-heading">Fragekarte erstellen</h1>
+         
+        
+    </div>
+  
+    <form class="form-flex" aria-labelledby="form-heading" aria-describedby="form-description">
+    
+    <p class="question-text" id="form-description">Füge eine neue Frage und die dazugehörige Antwort zum Fragenpool hinzu.</p>
+    <fieldset class="form-box">
+   <!-- <legend>Neue Frage</legend> -->
+    <label class="label-text" for="new-question">Füge hier deine neue Frage ein:</label>
+    <textarea name="new-question" id="new-question" placeholder="Hier kommt die neue Frage hinein" rows="5" cols="50" maxlength="100"></textarea>
+
+    <label class="label-text" for="kategorie">In welche Kategorie gehört diese Frage?</label>
     <select name="kategorie" id="kategorie">
       <option value="HTML" >HTML</option>
       <option value="CSS">CSS</option>
@@ -21,15 +30,15 @@ export const Default = () => /*html*/ `
     </select>
 
 
+    <div class="middle-line">
+    </div>
+    
+    <!--  <legend>Neue Antwort</legend> -->
+    <label class="label-text" for="new-answer">Hier kommt die passende Antwort hinein:</label>
+    <textarea name="new-answer" id="new-answer" placeholder="Answer me..." rows="5" cols="50" maxlength="100"></textarea>
   </fieldset>
-
-  <fieldset>
-    <legend>Neue Antwort</legend>
-    <label for="personal-message">Hier kommt die passende Antwort hinein:</label>
-    <textarea name="personal-message" id="personal-message" placeholder="Answer me..." rows="10" cols="50" maxlength="100"></textarea>
-  </fieldset>
-
-  <input type="submit" value="Subscribe!">
-  <button type="submit" disabled>Unsubscribe!</button>
-</form>
+    <div class="categories"> <input type="submit" value="Submit">
+    </div>
+    </form>
+</article>
   `;
