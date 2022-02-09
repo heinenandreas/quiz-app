@@ -4,9 +4,10 @@ export default {
 
 export const Default = () => /*html*/ `
 <article class="card-layout">
-
+<div class="bookmark-style-active"></div> 
     <div class="card-head">
         <h1 class= "question-headline">Question:</h1>
+        
     </div>
 
     <p class="question-text">
@@ -37,7 +38,7 @@ export const Default = () => /*html*/ `
 
 export const Answer = () => /*html*/ `
   <article class="card-layout-answer">
-  
+  <div class="bookmark-style-active"></div> 
       <div class="card-head">
           <h1 class= "question-headline">Question:</h1>
       </div>
