@@ -4,6 +4,7 @@
   box-sizing: content-box;
   height: 45px;
   background-color: #63c787;
+  overflow: hidden;
   display: flex;
   align-items: center;
   padding: 0 0 0 10px;
@@ -16,6 +17,8 @@
 }
 
 .card-layout {
+  position: absolute;
+  top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
