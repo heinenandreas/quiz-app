@@ -16,7 +16,7 @@
 }
 
 .card-layout {
-  position: absolute;
+  position: relative;
   top: 150px;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,6 @@
 
 /* Kopieren nicht vergessen von card-layout +height 400px */
 .card-layout-answer {
-  position: absolute;
-  top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

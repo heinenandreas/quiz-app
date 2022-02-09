@@ -1,4 +1,6 @@
 .header-layout {
+  position: fixed;
+  top: 0;
   background-color: #63c787;
   width: 100vw;
   height: 100px;
@@ -7,6 +9,7 @@
   align-items: center;
   z-index: 1;
 }
+
 .header-headline {
   margin: 0;
 }

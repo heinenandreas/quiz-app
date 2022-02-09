@@ -6,12 +6,15 @@
 }
 
 .body-style {
-  display: grid;
+  width: 100vw;
   margin: 0;
+  position: relative;
 }
 
 .main-content {
+  position: absolute;
+  width: 100vw;
   display: grid;
-  justify-items: center;
-  position: relative;
+  gap: 100px;
+  justify-content: center;
 }
