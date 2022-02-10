@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .header-headline {
     font-size: 1.5em;
     text-shadow: 0 0 0.1em black;
