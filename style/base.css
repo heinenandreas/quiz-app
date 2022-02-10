@@ -8,13 +8,12 @@
 .body-style {
   width: 100vw;
   margin: 0;
-  position: relative;
   background-color: #9dffd63d;
+  padding-bottom: 400px;
 }
 
 .main-content {
-  position: absolute;
-  width: 100vw;
+  width: 100%;
   display: grid;
   gap: 100px;
   justify-content: center;

@@ -4,8 +4,8 @@ export default {
 
 export const Default = () => /*html*/ `
 <footer class="footer-layout">
-<nav class = "navigation">
-  <ul class="navigation-ul">
+<nav class="navigation">
+  <ul class="navigation-ul navigation-style">
     <li class="navigation-li"><a href="/index.html">Home</a></li>
     <li class="navigation-li"><a href="/bookmarks.html">Bookmark</a></li>
     <li class="navigation-li"><a href="/create.html">Create</a></li>
