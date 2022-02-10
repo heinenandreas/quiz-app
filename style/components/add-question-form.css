@@ -1,7 +1,13 @@
 .card-head {
   box-sizing: content-box;
-  height: 45px;
+  height: 2.8em;
   background-color: #63c787;
+}
+
+@media screen and (max-width: 550px) {
+  .card-head {
+    height: 2.1em;
+  }
 }
 
 .question-headline {
@@ -16,15 +22,25 @@
 
 .form-layout {
   position: relative;
-  top: 200px;
+  top: 12.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 450px;
-  height: 500px;
+  width: 28.125em;
+  height: 31.25em;
   background-color: white;
-  border: 5px solid #699d9e;
-  box-shadow: -5px 5px 5px 0px lightgrey;
+  border: 0.3em solid #699d9e;
+  box-shadow: -0.3em 0.3em 0.3em 0 lightgrey;
+}
+
+@media screen and (max-width: 550px) {
+  .form-layout {
+    top: 9.375em;
+    width: 21.09em;
+    height: 31.25em;
+    border: 0.15em solid #699d9e;
+    box-shadow: -0.2em 0.2em 0.2em 0 lightgrey;
+  }
 }
 
 /* .formflex {
@@ -36,25 +52,51 @@
 
 .middle-line {
   width: 100%;
-  height: 50px;
-  margin: 10px 0;
-  background-color: #63c787;
+  height: em;
+  margin: 0em 0;
+  background-color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .middle-line {
+    margin: 0.47em 0;
+  }
 }
 
 .form-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5;
+  padding: 0.9em;
   margin: 0;
   border: 0;
 }
 
+@media screen and (max-width: 550px) {
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.68em;
+    margin: 0;
+    border: 0;
+  }
+}
+
 .question-text {
-  margin: 5px 0;
-  padding-bottom: 20px;
+  margin: 0.3em 0;
+  padding-bottom: 1.25em;
   text-align: center;
   font-family: "Nunito", sans-serif;
+}
+
+@media screen and (max-width: 550px) {
+  .question-text {
+    margin: 0.23em 0;
+    padding-bottom: 0.94em;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
 }
 
 .answer-text {
@@ -63,6 +105,13 @@
 }
 
 .label-text {
-  padding: 30px;
-  margin: 30px;
+  padding: 1.88em;
+  margin: 1.88em;
+}
+
+@media screen and (max-width: 550px) {
+  .label-text {
+    padding: 1.4em;
+    margin: 1.4em;
+  }
 }
