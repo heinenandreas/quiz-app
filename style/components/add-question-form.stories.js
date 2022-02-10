@@ -30,7 +30,7 @@ export const Default = () => /*html*/ `
               id="neue-frage"
               placeholder="Hier kommt die neue Frage hinein"
               rows="5"
-              cols="50"
+              cols="40"
               maxlength="100"
             ></textarea>
 
@@ -55,8 +55,7 @@ export const Default = () => /*html*/ `
               id="personal-message"
               placeholder="Answer me..."
               rows="5"
-              cols="50"
-              maxlength="100"
+              cols="40"
             ></textarea>
           </fieldset>
           <div class="categories"><input type="submit" value="Submit" /></div>

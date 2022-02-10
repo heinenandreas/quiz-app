@@ -1,19 +1,19 @@
 .bookmark-style-active {
   position: absolute;
-  right: 20px;
-  top: -50px;
-  width: 40px;
-  height: 45px;
+  right: 2em;
+  top: -3.1em;
+  width: 2.5em;
+  height: 2.8em;
   background-color: lightgreen;
   border-radius: 100% 100% 0% 0%;
 }
 
 .bookmark-style-inactive {
   position: absolute;
-  right: 20px;
-  top: -20px;
-  width: 40px;
-  height: 45px;
+  right: 1.25em;
+  top: -1.25em;
+  width: 2.5em;
+  height: 2.8em;
   background-color: lightgray;
   border-radius: 100% 100% 0% 0%;
   z-index: -1;

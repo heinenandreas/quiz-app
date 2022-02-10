@@ -3,5 +3,5 @@ export default {
 };
 
 export const Default = () => /*html*/ `
-
+<div class="profile-picture"></div>
       `;

@@ -9,12 +9,13 @@
   width: 100vw;
   margin: 0;
   background-color: #9dffd63d;
-  padding-bottom: 400px;
+  padding-bottom: 25em;
 }
 
 .main-content {
+  position: relative; /* --War das gut?--*/
   width: 100%;
   display: grid;
-  gap: 100px;
+  gap: 6.25em;
   justify-content: center;
 }
