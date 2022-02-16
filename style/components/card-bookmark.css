@@ -18,3 +18,24 @@
   border-radius: 100% 100% 0% 0%;
   z-index: -1;
 }
+
+[data-js='bookmark-aktive'] {
+  position: absolute;
+  right: 2em;
+  top: -3.1em;
+  width: 2.5em;
+  height: 2.8em;
+  background-color: lightgreen;
+  border-radius: 100% 100% 0% 0%;
+}
+
+[data-js='bookmark-inaktive'] {
+  position: absolute;
+  right: 1.25em;
+  top: -1.25em;
+  width: 2.5em;
+  height: 2.8em;
+  background-color: lightgray;
+  border-radius: 100% 100% 0% 0%;
+  z-index: -1;
+}

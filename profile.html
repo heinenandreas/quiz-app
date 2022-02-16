@@ -10,15 +10,40 @@
 
   <body class="body-style">
     <header class="header-layout">
-      <h1 class="header-headline">Profile</h1>
+      <h1 class="header-headline" id="form-profile">Profile</h1>
     </header>
 
     <main class="main-content">
+      <form aria-labelledby="form-profile" aria-describedby="">
+        <!-- ---describedby fehlt--- -->
+
+        <fieldset class="form-profile">
+          <label for="about">Erzähle uns etwas über dich</label>
+          <textarea
+            class="profile-about"
+            name="about"
+            id="about"
+            placeholder="Erzähle uns etwas über dich"
+            rows="6"
+            cols=""
+          ></textarea>
+
+          <textarea
+            class="skill-tags"
+            name="skill-tags"
+            id="skill-tags"
+            placeholder="Skill-Tags"
+            rows="6"
+            cols=""
+          ></textarea>
+        </fieldset>
+      </form>
+
       <div class="profile-picture"></div>
       <div class="add-picture-button"><p class="camera-sign">📷</p></div>
       <div class="profile-name"></div>
-      <div class="profile-about"></div>
-      <div class="skill-tags"></div>
+      <!-- <div class="profile-about"></div> -->
+      <!-- <div class="skill-tags"></div> -->
       <div class="logout-button"></div>
     </main>
 

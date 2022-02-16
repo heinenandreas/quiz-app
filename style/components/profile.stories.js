@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Profile",
+  title: 'Components/Profile',
 };
 
 export const Default = () => /*html*/ `

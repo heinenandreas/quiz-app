@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Add-question-form",
+  title: 'Components/Add-question-form',
 };
 
 export const Default = () => /*html*/ `

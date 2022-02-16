@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
   </head>
@@ -14,18 +15,18 @@
     </header>
 
     <main class="main-content">
-      <article class="card-layout">
-        <div class="bookmark-style-active"></div>
+      <article class="card-layout-answer">
+        <div class="bookmark-style-inactive" data-js="bookmark-inaktive"></div>
         <div class="card-head">
           <h2 class="question-headline">Question:</h2>
         </div>
 
         <p class="question-text">Wie lang kann so eine Frage schon sein?</p>
 
-        <div class="button-show-answer">
+        <div class="button-show-answer" data-js="button_show_answer">
           <p class="show-answer">show answer</p>
         </div>
-
+        <p class="answer-text" data-js="hide_answer">Nicht lang genug!</p>
         <div class="categories">
           <div class="cat-active">
             <p class="cat-name">HTML</p>

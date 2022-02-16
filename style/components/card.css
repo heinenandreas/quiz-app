@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 .card-head {
   box-sizing: content-box;
@@ -17,7 +17,7 @@
 }
 
 .question-headline {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: black;
   margin: 0;
 }
@@ -78,12 +78,12 @@
 
 .question-text {
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .answer-text {
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .button-show-answer {
@@ -94,6 +94,21 @@
 .show-answer {
   text-align: center;
   margin: 1rem;
+}
+
+[data-js='button_show_answer'] {
+}
+
+[data-js='hide_answer'] {
+  display: none;
+}
+/* ______________________________________ */
+[data-js='answer'] {
+  display: initial;
+}
+
+.answer {
+  display: initial;
 }
 
 .categories {
@@ -121,7 +136,7 @@
 }
 
 .cat-name {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   font-size: 0.75em;
   padding: 0.3em;
