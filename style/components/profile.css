@@ -104,7 +104,7 @@
     top: 23rem;
     width: 26em;
     height: 18rem;
-    border: 0.2.25rem solid #699d9e;
+    border: 0.225rem solid #699d9e;
     box-shadow: -0.2em 0.2em 0.2em 0 lightgrey;
   }
 }
@@ -121,6 +121,26 @@
 }
 
 .skill-tags {
+  position: absolute;
+  left: 5rem;
+  top: 50rem;
+  background-color: white;
+  width: 40em;
+  height: 4rem;
+  border: 0.3rem solid #699d9e;
+  box-shadow: -0.3em 0.3em 0.3em 0 lightgrey;
+}
+
+@media screen and (max-width: 550px) {
+  .skill-tags {
+    left: 5rem;
+    top: 50rem;
+    background-color: white;
+    width: 40em;
+    height: 4rem;
+    border: 0.3rem solid #699d9e;
+    box-shadow: -0.3em 0.3em 0.3em 0 lightgrey;
+  }
 }
 
 .logout-button {

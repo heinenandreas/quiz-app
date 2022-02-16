@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Card-Bookmark",
+  title: 'Components/Card-Bookmark',
 };
 
 export const Default = () => /*html*/ `
