@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-@import url(style/base.css);
-@import url(style/utils.css);
-@import url(style/variables.css);
+@import url('style/base.css');
+@import url('style/utils.css');
+@import url('style/variables.css');
 
-@import url(style/components/card.css);
-@import url(style/components/header.css);
-@import url(style/components/footer.css);
-@import url(style/components/add-question-form.css);
-@import url(style/components/card-bookmark.css);
-@import url(style/components/profile.css);
+@import url('style/components/card.css');
+@import url('style/components/header.css');
+@import url('style/components/footer.css');
+@import url('style/components/add-question-form.css');
+@import url('style/components/card-bookmark.css');
+@import url('style/components/profile.css');

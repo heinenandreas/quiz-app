@@ -11,7 +11,7 @@
 }
 
 .question-headline {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   color: black;
   margin: 0;
 }
@@ -52,8 +52,6 @@
 
 .middle-line {
   width: 100%;
-  height: em;
-  margin: 0em 0;
   background-color: white;
 }
 
@@ -87,7 +85,7 @@
   margin: 0.3em 0;
   padding-bottom: 1.25em;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 @media screen and (max-width: 550px) {
@@ -95,13 +93,13 @@
     margin: 0.23em 0;
     padding-bottom: 0.94em;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: Nunito, sans-serif;
   }
 }
 
 .answer-text {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 .label-text {

@@ -25,7 +25,7 @@
 }
 
 .main-content {
-  position: relative; /* --War das gut?--*/
+  position: relative; /* --War das gut?-- */
   width: 100%;
   display: grid;
   gap: 6.25em;
