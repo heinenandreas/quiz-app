@@ -4,11 +4,22 @@ console.log('Hello World!');
 /* ------------Show-Answer------------- */
 /* ==================================== */
 
-const answerButton = document.querySelector("[data-js='button_show_answer']");
-const hideAnswer = document.querySelector("[data-js='hide_answer']");
+// const answerButton = document.querySelector("[data-js='button_show_answer']");
+// const hideAnswer = document.querySelector("[data-js='hide_answer']");
 
-answerButton?.addEventListener('click', () => {
-  hideAnswer.classList.toggle('answer');
+// answerButton?.addEventListener('click', () => {
+//   hideAnswer.classList.toggle('answer');
+// });
+
+const answerButtons = document.querySelectorAll("[data-js='answer']");
+//const answer = document.querySelector("[data-js='button_show_answer']");
+
+answerButtons.forEach(answer => {
+  const button = answer.querySelector("[data-js='button_show_answer']");
+  const showAnswer = answer.querySelector("[data-js='hide_answer']");
+  button.addEventListener('click', () => {
+    showAnswer.classList.toggle('answer');
+  });
 });
 
 /* ==================================== */
